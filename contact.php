@@ -110,13 +110,13 @@ session_start();
                   <form id="request" class="main_form" method="post" action="sendEmail.php">
                      <div class="row">
                         <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
+                           <input class="contactus" placeholder="Name" type="type" name="name"> 
                         </div>
                         <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                           <input class="contactus" placeholder="Email" type="type" name="email"> 
                         </div>
                         <div class="col-md-12">
-                           <input class="contactus1" placeholder="Message" type="type" Message="Name">
+                           <input class="contactus1" placeholder="Message" type="type" Message="message">
                         </div>
                         <?php
                         if(isset($_SESSION['success'])){
@@ -169,7 +169,7 @@ session_start();
                   <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                      <h3>Contact Us</h3>
                      <ul class="link_menu">
-                        <li><a href="#">Email: ethiotutoringcompany@gmail.com</a></li>
+                        <li><a href="#">Email: info@ethiotutoring.com</a></li>
                      </ul>
                   </div>
                   <!-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">

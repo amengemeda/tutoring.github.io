@@ -29,7 +29,7 @@ session_start();
 // $redirectUri = 'http://localhost/carata/carata_files/administration/logic/PHPMailer/get_oauth_token.php';
 
 //These details obtained are by setting up app in Google developer console.
-$redirectUri = 'http://localhost/ethiotutoring/PHPMailer/get_oauth_token.php';
+$redirectUri = 'https://ethiotutoring.com/PHPMailer/get_oauth_token.php';
 $clientId = '1008901332551-0impplcg7srjp8hq8p7dvu5hp8pt6iav.apps.googleusercontent.com';
 $clientSecret = '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';
 

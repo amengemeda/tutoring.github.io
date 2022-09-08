@@ -1,6 +1,6 @@
 <?php
         //Load dependencies from composer
-        require_once(__DIR__."/vendor/autoload.php");
+        require_once("vendor/autoload.php");
 
         // Alias the League Google OAuth2 provider class
         use League\OAuth2\Client\Provider\Google;
@@ -122,12 +122,17 @@
                 $mail->addAttachment($attachment);
             }
 
-            if($mail->send()){
-                return true;
-            }else{
-                return false;
+            try {
+
+            $mail->Send();
+            return "I am cakeked";
+            } catch (phpmailerException $e) {
+            return $e->errorMessage(); //Pretty error messages from PHPMailer
+            } catch (Exception $e) {
+            return $e->getMessage(); //Boring error messages from anything else!
             }
+
         }
 
-
+        echo sendEmail("Amen", "amentamene@gmail.com", "Test", "MsgToSend");
 ?>

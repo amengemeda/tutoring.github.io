@@ -160,7 +160,7 @@
                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <h3>Contact Us</h3>
                         <ul class="link_menu">
-                           <li><a href="#">Email: ethiotutoringcompany@gmail.com</a></li>
+                           <li><a href="#">Email: info@ethiotutoring.com</a></li>
                         </ul>
                      </div>
                      <!-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
